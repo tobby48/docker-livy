@@ -2,7 +2,7 @@
 
 **Configuration**
 - livy.conf : Need to update 'livy.spark.master' (Only Standalone mode)
-- livy-env.sh : Add to HADOOP_CONF_DIR env (Only YARN and Mesos mode)
+- livy-env.sh : Add to HADOOP_CONF_DIR env (Only YARN mode)
 - and so on....
 
 **BUILD**
