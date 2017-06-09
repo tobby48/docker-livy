@@ -7,7 +7,7 @@
 
 **BUILD**
 ```
-docker build -t tobby48/livy:lastest livy
+docker build -t tobby48/livy:0.3_2.1 livy
 ```
 
 **RUN**
@@ -22,7 +22,7 @@ docker run -d \
 	--restart=always \
         -v {user-log-path}:/apps/livy/logs \
         -p 8998:8998 \
-        tobby48/livy:lastest
+        tobby48/livy:0.3_2.1
 	docker cp {user-spark-fat-jar} livy:/apps/spark-modules/
 ```
 
