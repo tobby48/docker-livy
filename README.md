@@ -11,7 +11,7 @@ docker build -t tobby48/livy:0.3_2.1 livy
 ```
 
 **RUN**
-- After Master and Worker(Standalone mode) or NameNode and DataNode(YARN mode)...
+- After Master(Standalone mode) or NameNode(YARN mode)...
 - YARN mode : [Run Hadoop Cluster within Docker Containers](https://github.com/kiwenlau/hadoop-cluster-docker)
 - Standalone mode : [spark-master](https://github.com/tobby48/docker-spark-master), [spark-worker](https://github.com/tobby48/docker-spark-worker)
 ```
