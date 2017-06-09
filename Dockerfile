@@ -1,4 +1,4 @@
-FROM tobby48/spark-common:lastest
+FROM tobby48/spark-common:latest
 MAINTAINER Suk Heo <tobby48@gmail.com>
 
 # Set install path for Livy
